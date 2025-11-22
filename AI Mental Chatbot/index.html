@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+    <title>AiLumi - Your Light Companion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="chatbot" class="section">
+        <div class="section-header">
+            <h1>✨ AiLumi</h1>
+            <p class="subtitle">Your light companion for mental wellness and support.</p>
+        </div>
+
+        <div class="chat-container">
+            <div class="chat-header">
+                <h2>✨ Chat with Lumi</h2>
+                <button onclick="clearChat()" class="clear-btn" title="Clear chat history">🗑️ Clear</button>
+            </div>
+            <div id="chatbox">
+                <div class="message bot">
+                    <div class="message-content">
+                        Hello! I'm <strong>Lumi</strong>, your AI companion. I'm here to bring light to your day and help you with:
+                        <ul>
+                            <li>Managing stress and anxiety</li>
+                            <li>Mindfulness & breathing techniques</li>
+                            <li>Coping with academic or work burnout</li>
+                            <li>Finding emotional balance</li>
+                            <li>General mental health resources</li>
+                        </ul>
+                        <p><em>Note: I am an AI, not a doctor. If you are in crisis, please contact emergency services immediately.</em></p>
+                        How are you feeling today?
+                    </div>
+                </div>
+            </div>
+
+            <div class="input-area">
+                <input type="text" id="userInput" placeholder="Share what's on your mind..." 
+                       onkeypress="if(event.key==='Enter') sendMessage()">
+                <button onclick="sendMessage()" class="send-btn">Chat</button>
+            </div>
+
+            <div class="quick-actions">
+                <button class="quick-btn" onclick="quickQuestion('I am feeling very anxious right now.')">I feel anxious</button>
+                <button class="quick-btn" onclick="quickQuestion('Can you teach me a breathing exercise?')">Breathing Exercise</button>
+                <button class="quick-btn" onclick="quickQuestion('I feel burnt out and unmotivated.')">I feel burnt out</button>
+                <button class="quick-btn" onclick="quickQuestion('I need help sleeping.')">Sleep tips</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
