@@ -3,7 +3,7 @@
 // ========================================
 
 // ⚠️ REPLACE THIS WITH A NEW KEY. The one you posted is compromised.
-const GEMINI_API_KEY = 'AIzaSyBJ286fF-evVSFdhXdsjgxOCc_Gp2E3e6I';
+const GEMINI_API_KEY = 'YOUR_API_KEY';
 
 // Using v1beta endpoint with gemini-2.5-pro (using header for API key, not query param)
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent`;
@@ -809,4 +809,5 @@ function initMobileOptimizations() {
             lastTap = currentTime;
         });
     });
+
 }
