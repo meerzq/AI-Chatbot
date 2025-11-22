@@ -37,7 +37,7 @@ Built with **Google's Gemini API**, Lumi is capable of understanding context, de
 
 | Desktop View |
 |:---:|
-| ![Desktop Interface](path/to/desktop-screenshot.png) |
+| ![Desktop Interface](https://github.com/meerzq/AI-Chatbot/blob/a89403e14dd4c9890cd3b391b9c855015b7247b5/Screenshot%202025-11-23%20013425.png) |
 
 ## ⚙️ Installation & Setup
 
@@ -50,7 +50,7 @@ To run this project locally, follow these steps:
 
 2.  **Navigate to the project directory:**
     ```bash
-    cd AiLumi-Mental-Wellness-Chatbot
+    cd AI-Mental-Chatbot
     ```
 
 3.  **Configure API Key:**
@@ -65,8 +65,4 @@ To run this project locally, follow these steps:
 Developed by **Mohamad Ameer Haziq Bin Azuan** as a Computer Science initiative to explore AI applications in mental health.
 
 * **GitHub:** [meerzq](https://github.com/meerzq)
-* **LinkedIn:** [Mohamad Ameer Haziq](https://www.linkedin.com/in/mohamad-ameer-haziq-bin-azuan-19345028b)
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+* **LinkedIn:** [Mohamad Ameer Haziq](https://www.linkedin.com/in/ameer-haziq-7a016b297?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
